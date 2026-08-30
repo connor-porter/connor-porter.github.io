@@ -163,23 +163,22 @@ ul {
     margin-bottom: 15px;
 }
 
-header {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 70px 30px 30px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.header-content {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    width: 100% !important;
 }
 
-header img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    order: 2;
+.header-text {
+    flex: 1 !important;
 }
 
-header .header-text {
-    order: 1;
+.header-content img {
+    width: 140px !important;
+    height: 140px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    flex-shrink: 0 !important;
+    margin-left: auto !important;
 }
